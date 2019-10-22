@@ -1,0 +1,22 @@
+<h1>Edit your task</h1>
+<%= render 'form', task: @task %>
+<!-- <form action="/tasks/<%= @task.id %>" method="post">
+
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <input type="hidden" name="_method" value="patch" />
+  <label for="title">Title </label>
+  <input type="text" name="task[title]" id="title" value="<%= @task.title %>">
+
+  <label for="details">Description: </label>
+  <input type="text" name="task[details]" id="details" value="<%= @task.details %>">
+
+  <label for="completed">Completed(true/false): </label>
+  <input type="boolean" name="task[completed]" id="completed" value="<%= @task.completed %>">
+
+  <input type="submit">
+</form> -->
+
+<p>-------------------------------</p>
+<p>-------------------------------</p>
+<%= link_to "back", task_path %>
+
